@@ -12,7 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-@Path("/ctokservice")
+@Path("/ktocservice")
 public class KtoCService {
 	private static final Logger LOGGER = Logger.getLogger(KtoCService.class.getName()); 
 	

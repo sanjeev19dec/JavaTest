@@ -16,10 +16,10 @@ import org.json.JSONObject;
 public class KtoMService {
 	private static final Logger LOGGER = Logger.getLogger(KtoMService.class.getName()); 
 	
-	@Path("{c}")
+	@Path("{kilo}")
 	@GET
 	@Produces("application/json")
-	public Response convertKtoMfromInput(@PathParam("c") double kilo) throws JSONException {
+	public Response convertKtoMfromInput(@PathParam("kilo") double kilo) throws JSONException {
 		
 		long startTime = System.currentTimeMillis();
 		LOGGER.info("Service ktom called....");

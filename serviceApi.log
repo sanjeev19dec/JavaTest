@@ -1,0 +1,98 @@
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/9.0.36
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jun 3 2020 17:07:09 UTC
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 9.0.36.0
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_261
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_261-b12
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Eclipse\WebService\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\apache-tomcat-9\apache-tomcat-9.0.36
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Eclipse\WebService\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\apache-tomcat-9\apache-tomcat-9.0.36
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=C:\Eclipse\WebService\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\apache-tomcat-9\apache-tomcat-9.0.36\endorsed
+Jul 15, 2020 10:43:06 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+Jul 15, 2020 10:43:06 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+Jul 15, 2020 10:43:06 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jul 15, 2020 10:43:06 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jul 15, 2020 10:43:06 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+Jul 15, 2020 10:43:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Jul 15, 2020 10:43:07 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [676] milliseconds
+Jul 15, 2020 10:43:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jul 15, 2020 10:43:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.36]
+Jul 15, 2020 10:43:07 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 15, 2020 10:43:07 PM com.sun.jersey.api.core.servlet.WebAppResourceConfig init
+INFO: Scanning for root resource and provider classes in the Web app resource paths:
+  /WEB-INF/lib
+  /WEB-INF/classes
+Jul 15, 2020 10:43:08 PM com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.javatest.api.CToKService
+  class com.javatest.api.KtoCService
+  class com.javatest.api.KtoMService
+  class com.javatest.api.MToKService
+Jul 15, 2020 10:43:08 PM com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+Jul 15, 2020 10:43:08 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:46 PM'
+Jul 15, 2020 10:43:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jul 15, 2020 10:43:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [1,149] milliseconds
+Jul 15, 2020 10:48:46 PM com.javatest.api.KtoMService convertKtoMfromInput
+INFO: Service ktom called....
+Jul 15, 2020 10:48:46 PM com.javatest.api.KtoMService convertKtoMfromInput
+INFO: It took 9 milliseconds
+Jul 15, 2020 10:48:46 PM com.javatest.api.KtoMService convertKtoMfromInput
+INFO: Service ktom returning....@Produces("application/json") Output: 
+
+K to M Converter Output: 
+
+{"K Value":12,"M Value":7.452}
+Jul 15, 2020 10:49:50 PM com.javatest.api.KtoMService convertKtoMfromInput
+INFO: Service ktom called....
+Jul 15, 2020 10:49:50 PM com.javatest.api.KtoMService convertKtoMfromInput
+INFO: It took 1 milliseconds
+Jul 15, 2020 10:49:50 PM com.javatest.api.KtoMService convertKtoMfromInput
+INFO: Service ktom returning....@Produces("application/json") Output: 
+
+K to M Converter Output: 
+
+{"K Value":15,"M Value":9.315}
+Jul 15, 2020 10:50:19 PM com.javatest.api.MToKService convertMtoKfromInput
+INFO: Service mtok called....
+Jul 15, 2020 10:50:19 PM com.javatest.api.MToKService convertMtoKfromInput
+INFO: It took 0 milliseconds
+Jul 15, 2020 10:50:19 PM com.javatest.api.MToKService convertMtoKfromInput
+INFO: Service mtok returning....@Produces("application/json") Output: 
+
+M to K Converter Output: 
+
+{"K Value":25.6,"M Value":16}
