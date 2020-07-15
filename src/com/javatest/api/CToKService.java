@@ -19,7 +19,7 @@ public class CToKService {
 	@Path("{c}")
 	@GET
 	@Produces("application/json")
-	public Response convertFtoCfromInput(@PathParam("c") float cel) throws JSONException {
+	public Response convertCtoKfromInput(@PathParam("c") float cel) throws JSONException {
 		
 		long startTime = System.currentTimeMillis();
 		LOGGER.info("Service ctok called....");

@@ -19,7 +19,7 @@ public class KtoCService {
 	@Path("{c}")
 	@GET
 	@Produces("application/json")
-	public Response convertFtoCfromInput(@PathParam("c") float kel) throws JSONException {
+	public Response convertKtoCfromInput(@PathParam("c") float kel) throws JSONException {
 		
 		long startTime = System.currentTimeMillis();
 		LOGGER.info("Service ktoc called....");
